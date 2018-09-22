@@ -14,7 +14,7 @@
         <!-- This is the area for headings -->
 
         <h1>This is a heading</h1>
-        <h2>This is heading 2</h2>
+        <h2>This is <span style="color: red">heading</span> 2</h2>
         <h3>This is heading 3</h3>
 
         <hr>
@@ -24,6 +24,14 @@
         <p title="I'm a tooltip" id="p01">This is a paragraph.</p>
         
         <p class="error">And another paragraph</p>
+
+        <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com" usemap="#workmap">
+
+        <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="Computer" href="computer.htm">
+            <area shape="rect" coords="290,172,333,250" alt="Phone" href="phone.htm">
+            <area shape="circle" coords="337,300,44" alt="Coffee" href="coffee.htm">
+        </map>
 
         <a href="https://www.w3schools.com" target="_blank" title="Go to W3Schools">This is a link</a>
 
@@ -40,6 +48,10 @@
         <br>
 
         <button title="I'm a button">Click me</button>
+
+        <p><img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools" style="float:right;width:42px;height:42px;">The image will float to the right of the text.</p>
+
+        <p><img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools" style="float:left;width:42px;height:42px;">The image will float to the left of the text.</p>
 
         <pre>
             My Bonnie lies over the ocean.
@@ -92,16 +104,86 @@
             <li>Milk</li>
         </ul>
 
-        <ol>
+        <ol type="1" start="25">
             <li>Coffee</li>
             <li>Tea</li>
             <li>Milk</li>
         </ol>
 
+        <dl>
+            <dt>Coffee</dt>
+            <dd>- black hot drink</dd>
+            <dt>Milk</dt>
+            <dd>- white cold drink</dd>
+        </dl>
+
         <h4 id="C4">Chapter 4</h4>
 
+        <table style="width:100%">
+            <tr>
+                <th>Firstname</th>
+                <th>Lastname</th>
+                <th>Age</th>
+            </tr>
+            <tr>
+                <td>Jill</td>
+                <td>Smith</td>
+                <td>50</td>
+            </tr>
+            <tr>
+                <td>Eve</td>
+                <td>Jackson</td>
+                <td>94</td>
+            </tr>
+        </table>
 
+        <br>
 
+        <table style="width:100%">
+            <tr>
+                <th>Name</th>
+                <th colspan="2">Telephone</th>
+            </tr>
+            <tr>
+                <td>Bill Gates</td>
+                <td>55577854</td>
+                <td>55577855</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table style="width:100%">
+            <tr>
+                <th>Name:</th>
+                <td>Bill Gates</td>
+            </tr>
+            <tr>
+                <th rowspan="2">Telephone:</th>
+                <td>55577854</td>
+            </tr>
+            <tr>
+                <td>55577855</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <table style="width:100%">
+            <caption>Monthly savings</caption>
+            <tr>
+                <th>Month</th>
+                <th>Savings</th>
+            </tr>
+            <tr>
+                <td>January</td>
+                <td>£100</td>
+            </tr>
+            <tr>
+                <td>February</td>
+                <td>£50</td>
+            </tr>
+        </table>
 
     </body>
 
